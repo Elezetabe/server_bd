@@ -8,7 +8,7 @@ const port = 3001;
 // Conexión a la base de datos con Sequelize
 const sequelize = new Sequelize('server', 'root', 'Sena2024', {
   host: 'localhost',
-  port: 3306, // Puerto debe ser un número, no un string
+  port: 3306, 
   dialect: 'mysql',
 });
 
